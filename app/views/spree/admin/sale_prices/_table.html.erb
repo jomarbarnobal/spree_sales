@@ -1,0 +1,11 @@
+<table class="table table-bordered" data-hook="sale_price_table" id="product_sale_prices">
+  <thead>
+    <tr data-hook="products_header">
+      <th colspan="2"> <%= Spree.t('variant') %> </th>
+      <th> <%= Spree.t('sales_info') %> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <%= render partial: "variant", collection: product.variants_including_master, locals: {product: product} %>
+  </tbody>
+</table>
