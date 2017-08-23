@@ -1,10 +1,8 @@
 Spree Sales
 ==========
-[![Code Climate](https://codeclimate.com/github/ronzalo/spree_sales/badges/gpa.svg)](https://codeclimate.com/github/ronzalo/spree_sales)
-
-[![Build Status](https://travis-ci.org/ronzalo/spree_sales.svg?branch=master)](https://travis-ci.org/ronzalo/spree_sales)
 
 Add sales prices to products and variants
+Clone from https://github.com/ronzalo/spree_sales
 
 Installation
 ------------
@@ -12,7 +10,7 @@ Installation
 Add spree_sales to your Gemfile:
 
 ```ruby
-gem 'spree_sales', github: 'ronzalo/spree_sales', branch: 'master'
+gem 'spree_sales', github: 'jomarbarnobal/spree_sales', branch: 'master'
 ```
 
 Bundle your dependencies and run the installation generator:
